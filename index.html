@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Biodata & Marquee Ayu Kristiani Lase</title>
+  <style>
+    body {
+      background: #ffe6f0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #b30059;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+    }
+    header {
+      background: #ff66b2;
+      width: 100%;
+      padding: 25px 0;
+      text-align: center;
+      box-shadow: 0 4px 10px rgba(179, 0, 89, 0.3);
+      color: white;
+      font-weight: 700;
+      font-size: 2rem;
+      letter-spacing: 2px;
+    }
+    .marquee-container {
+      width: 90%;
+      max-width: 800px;
+      overflow: hidden;
+      border: 3px solid #ff66b2;
+      border-radius: 15px;
+      background: #ffd6e8;
+      box-shadow: 0 5px 15px rgba(179, 0, 89, 0.3);
+      padding: 15px 0;
+      margin: 20px 0;
+    }
+    .marquee-text {
+      display: inline-block;
+      white-space: nowrap;
+      padding-left: 100%;
+      font-size: 1.8rem;
+      font-weight: 600;
+      color: #b30059;
+      animation: marquee 12s linear infinite;
+    }
+    @keyframes marquee {
+      0% { transform: translateX(0%); }
+      100% { transform: translateX(-100%); }
+    }
+    .container {
+      background: #ffd6e8;
+      border-radius: 15px;
+      padding: 30px 40px;
+      box-shadow: 0 6px 20px rgba(179, 0, 89, 0.3);
+      max-width: 600px;
+      width: 90%;
+      color: #800040;
+    }
+    .container h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 25px;
+      letter-spacing: 2px;
+      text-transform: uppercase;
+      color: #b30059;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+      font-size: 1.2rem;
+      font-weight: 600;
+    }
+    ul li {
+      padding: 12px 0;
+      border-bottom: 1px solid #ff99cc;
+      display: flex;
+      justify-content: space-between;
+    }
+    ul li:last-child {
+      border-bottom: none;
+    }
+    footer {
+      margin-top: auto;
+      padding: 15px 10px;
+      width: 100%;
+      text-align: center;
+      background: #ff66b2;
+      color: white;
+      font-weight: 600;
+      box-shadow: 0 -3px 6px rgba(179, 0, 89, 0.3);
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    Biodata Ayu Kristiani Lase
+  </header>
+
+  <div class="marquee-container" aria-label="Tulisan berjalan Selamat datang">
+    <div class="marquee-text">
+      Selamat datang di tugas latihan Ayu Kristiani Lase &nbsp;&nbsp;&nbsp;&nbsp;
+    </div>
+  </div>
+
+  <main class="container" role="main">
+    <h2>Profil Singkat</h2>
+    <ul>
+      <li><span>Nama Lengkap</span><span>Ayu Kristiani Lase</span></li>
+      <li><span>Umur</span><span>16 Tahun</span></li>
+      <li><span>Tempat/Tanggal Lahir</span><span>Nias, 20 April 2009</span></li>
+      <li><span>Hobi</span><span>Olahraga</span></li>
+      <li><span>Cita-cita</span><span>Kowal</span></li>
+    </ul>
+  </main>
+
+  <footer>
+    &copy; 2025 Ayu Kristiani Lase
+  </footer>
+
+</body>
+</html>
